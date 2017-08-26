@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="血糖数据历史纪录" />
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/xuetang_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#686868"
+        android:dividerHeight="4dp"
+        android:headerDividersEnabled="false"
+        android:smoothScrollbar="true" />
+
+</LinearLayout>

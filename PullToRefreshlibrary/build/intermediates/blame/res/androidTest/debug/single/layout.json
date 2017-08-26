@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Fanny/FannyWorkPalace/HealthCareClient/PullToRefreshlibrary/build/intermediates/res/merged/androidTest/debug/layout/pull_to_refresh_header_vertical.xml",
+        "source": "/Users/Fanny/FannyWorkPalace/HealthCareClient/PullToRefreshlibrary/build/intermediates/bundles/debug/res/layout/pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "/Users/Fanny/FannyWorkPalace/HealthCareClient/PullToRefreshlibrary/build/intermediates/res/merged/androidTest/debug/layout/pull_to_refresh_header_horizontal.xml",
+        "source": "/Users/Fanny/FannyWorkPalace/HealthCareClient/PullToRefreshlibrary/build/intermediates/bundles/debug/res/layout/pull_to_refresh_header_horizontal.xml"
+    }
+]

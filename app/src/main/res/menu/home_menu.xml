@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/data_clean"
+        android:icon="@drawable/vector_drawable_clean"
+        android:title="历史数据"
+        app:showAsAction="always|withText"
+        />
+    <item
+        android:id="@+id/data_putin"
+        android:icon="@drawable/vector_drawable_data_add"
+        android:title="数据录入"
+        app:showAsAction="always|withText"
+        />
+
+</menu>

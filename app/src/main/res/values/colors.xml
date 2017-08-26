@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGreen">#7798D07A</color>
+    <color name="colorDarkGreen">#1c7561</color>
+    <color name="colorRed">#88f4511e</color>
+    <color name="colorFreshGreen">#19FF00</color>
+    <color name="btnClickColor">#aaa</color>
+    <color name="btnNormalColor">#fff</color>
+    <color name="btnNormal0Color">#92cdf4</color>
+    <color name="bc_white">#fff</color>
+</resources>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Fanny/FannyWorkPalace/HealthCareClient/PullToRefreshlibrary/build/intermediates/res/merged/androidTest/debug/drawable/indicator_bg_bottom.xml",
+        "source": "/Users/Fanny/FannyWorkPalace/HealthCareClient/PullToRefreshlibrary/build/intermediates/bundles/debug/res/drawable/indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "/Users/Fanny/FannyWorkPalace/HealthCareClient/PullToRefreshlibrary/build/intermediates/res/merged/androidTest/debug/drawable/indicator_bg_top.xml",
+        "source": "/Users/Fanny/FannyWorkPalace/HealthCareClient/PullToRefreshlibrary/build/intermediates/bundles/debug/res/drawable/indicator_bg_top.xml"
+    }
+]

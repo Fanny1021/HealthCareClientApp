@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fanny.healthcareclient">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.XueyaDataActivity" />
+        <activity android:name=".activity.XueYaPutInActivity" />
+        <activity android:name=".activity.TempDataActivity" />
+        <activity android:name=".activity.TempPutInActivity" />
+        <activity android:name=".activity.XueTangDataActivity" />
+        <activity android:name=".activity.XueTangPutInActivity" />
+        <activity android:name=".activity.XueYangDataActivity" />
+        <activity android:name=".activity.XueYangPutInActivity" />
+        <activity android:name=".activity.ECGDataActivity" />
+        <activity android:name=".activity.ECGPutInActivity" />
+        <activity android:name=".activity.WatchDataActivity" />
+        <activity android:name=".activity.WatchPutInActivity" />
+        <activity android:name=".activity.MoreMsgActivity" />
+        <activity android:name=".activity.UserMsgActivity" />
+        <activity android:name=".activity.UserChoiceActivity" />
+        <activity android:name=".activity.WebHealthNewsActivity" />
+        <activity android:name=".activity.ShopMarketActivity"
+            android:theme="@style/noactionbar_white"></activity>
+    </application>
+
+</manifest>

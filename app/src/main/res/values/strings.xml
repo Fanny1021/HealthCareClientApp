@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HealthCareClient</string>
+
+    <string-array name="user">
+        <item>龚梦帆</item>
+        <item>美女2</item>
+        <item>美女3</item>
+        <item>美女4</item>
+        <item>美女5</item>
+        <item>美女6</item>
+        <item>美女7</item>
+    </string-array>
+
+</resources>

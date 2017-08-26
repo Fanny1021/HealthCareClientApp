@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fanny.healthcareclient.activity.UserMsgActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="姓       名" />
+
+        <Spinner
+            android:scrollbars="vertical"
+            android:id="@+id/spn_username"
+            android:enabled="false"
+            android:textSize="18sp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="性       别" />
+
+        <RadioGroup
+            android:id="@+id/c_rg_gentle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:enabled="true"
+                android:id="@+id/c_rb_man"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="男" />
+
+            <RadioButton
+                android:enabled="true"
+                android:id="@+id/c_rb_woman"
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="女" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="年       龄"/>
+
+        <TextView
+            android:enabled="true"
+            android:textSize="18sp"
+            android:id="@+id/c_tv_born"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:hint="1991-10-21" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="身份证号" />
+
+        <TextView
+            android:enabled="true"
+            android:textSize="18sp"
+            android:id="@+id/c_tv_idCard"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:hint="110110111010101010" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="绑定账号" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/c_iv_wechat"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/wechat"
+                android:gravity="center" />
+
+            <ImageView
+                android:id="@+id/c_iv_sina"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/sina"
+                android:gravity="center" />
+
+            <ImageView
+                android:id="@+id/c_iv_tecent"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/tencent"
+                android:gravity="center" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <Button
+            android:id="@+id/c_btn_edit"
+            android:background="@drawable/btn_bt_selector"
+            android:text="选择用户"
+            android:textSize="15sp"
+            android:layout_width="80dp"
+            android:layout_height="40dp" />
+        <!--<Button-->
+            <!--android:id="@+id/c_btn_save"-->
+            <!--android:background="@drawable/btn_bt_selector"-->
+            <!--android:text="确   定"-->
+            <!--android:textSize="15sp"-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="40dp" />-->
+    </LinearLayout>
+
+</LinearLayout>

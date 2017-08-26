@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Fanny/FannyWorkPalace/HealthCareClient/PullToRefreshlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/default_ptr_rotate.png",
+        "source": "/Users/Fanny/FannyWorkPalace/HealthCareClient/PullToRefreshlibrary/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/default_ptr_rotate.png"
+    },
+    {
+        "merged": "/Users/Fanny/FannyWorkPalace/HealthCareClient/PullToRefreshlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/default_ptr_flip.png",
+        "source": "/Users/Fanny/FannyWorkPalace/HealthCareClient/PullToRefreshlibrary/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/default_ptr_flip.png"
+    },
+    {
+        "merged": "/Users/Fanny/FannyWorkPalace/HealthCareClient/PullToRefreshlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/indicator_arrow.png",
+        "source": "/Users/Fanny/FannyWorkPalace/HealthCareClient/PullToRefreshlibrary/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/indicator_arrow.png"
+    }
+]
